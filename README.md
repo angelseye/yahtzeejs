@@ -1,21 +1,26 @@
-# yahtzeejs
-A javascript version of the popular dice game "Yahtzee" for the purpose of learning to use Node, Mocha, Chai, Sinon, and D3
+# Yahtzee.js
+A javascript version of the popular dice game "Yahtzee" for the purpose of learning to use Node, Grunt, Mocha, Chai, Sinon, and D3
 
+## Getting Started
 To get started using this version of the popular dice game, simply follow the instructions below to setup a local environment where you can play.
-You will need to make sure you have Node installed on your machine as this version of the game will use the http-server module to setup a simple 
-web server capable of serving up the pages and running tests for this application.
-You will also need to make sure you have installed Mocha, Chai, and Sinon if you are interested in doing further development and testing.
+You will need to make sure you have Node installed on your machine as this version of the game will use Node and NPM to set everything up.
 
-To start the HTTP Server, simply cd to where you cloned the git repository and type in "node node_modules/.bin/hs* -p 9000" (without quotes).
-You may need to give administrator permissions using sudo. I chose port 9000 because the default of 8080 for http-server could conflict with something already
-on your machine as its a popular port for many applications.
+Run the following, in a command prompt, in the root of where you cloned the repository:
+	npm install
 
-Once the machine is started, navigate your browser to "http://localhost:9000/game.html" and play the popular dice game.
-
-Enjoy
+Once everything is installed, you will need to start the web server by running the following:
+	node node_modules/.bin/hs* -p 9000
+*You can select any port you like instead of port 9000. I chose 9000 because it's less common than the default 8080.*
 
 
 ## Testing with Mocha
-If you would like to run the test suite, simply cd to where you cloned the git repository and type in "node node_modules/.bin/mocha test/" (without quotes).
-Please be sure that any new gaming code have appropriate tests for all new and changed functionality.
+All the testing is done through Grunt and Mocha. Simply run the following in a command prompt in your project directory:
+	grunt
+
+
+## Contributions
+I just developed this project as a way of learning so if you see improvements, feel free to fork the repo, make your changes and submit a pull request.
+If I like what I see, I may integrate it back in and add you to the list below.
+
+* [Ashley Wilson](https://github.com/angelseye)
 

@@ -2,9 +2,10 @@
   "name": "yahtzeejs",
   "version": "0.0.1",
   "devDependencies": {
+    "chai": "latest",
     "grunt": "latest",
     "grunt-mocha": "latest",
-    "mocha": "latest",
-    "chai": "latest"
+    "http-server": "^0.8.5",
+    "mocha": "latest"
   }
 }
