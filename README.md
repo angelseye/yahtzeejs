@@ -12,9 +12,20 @@ npm install
 
 Once everything is installed, you will need to start the web server by running the following:
 ```
-node node_modules/.bin/hs* -p 9000
+grunt
 ```
-*You can select any port you like instead of port 9000. I chose 9000 because it's less common than the default 8080.*
+You may also run the following as an alternative way to start the web server:
+```
+grunt connect
+```
+
+To open the game in your browsers, simply navigate your browsers to the following:
+```
+http://localhost:9001/app/play.html
+```
+
+Enjoy the game!
+
 
 
 ## Testing with Mocha
