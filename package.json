@@ -1,0 +1,10 @@
+{
+  "name": "yahtzeejs",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-mocha": "latest",
+    "mocha": "latest",
+    "chai": "latest"
+  }
+}
