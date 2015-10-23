@@ -6,16 +6,22 @@ To get started using this version of the popular dice game, simply follow the in
 You will need to make sure you have Node installed on your machine as this version of the game will use Node and NPM to set everything up.
 
 Run the following, in a command prompt, in the root of where you cloned the repository:
-	npm install
+```
+npm install
+```
 
 Once everything is installed, you will need to start the web server by running the following:
-	node node_modules/.bin/hs* -p 9000
+```
+node node_modules/.bin/hs* -p 9000
+```
 *You can select any port you like instead of port 9000. I chose 9000 because it's less common than the default 8080.*
 
 
 ## Testing with Mocha
 All the testing is done through Grunt and Mocha. Simply run the following in a command prompt in your project directory:
-	grunt
+```
+grunt
+```
 
 
 ## Contributions
